@@ -1,0 +1,467 @@
+# Copyright (C) 2024 ImageStore Pro
+# This file is distributed under the same license as the ImageStore Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ImageStore Pro 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/imagestore-pro\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: header.php:15
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:29
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:45
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:46
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:84
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:85
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:91
+msgid "Footer Area 1"
+msgstr ""
+
+#: functions.php:92
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:98
+msgid "Footer Area 2"
+msgstr ""
+
+#: functions.php:99
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:105
+msgid "Footer Area 3"
+msgstr ""
+
+#: functions.php:106
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: header.php:62
+msgid "Browse Images"
+msgstr ""
+
+#: header.php:67
+msgid "Learn More"
+msgstr ""
+
+#: front-page.php:19
+msgid "Featured Images"
+msgstr ""
+
+#: front-page.php:20
+msgid "Handpicked premium digital images for your creative projects"
+msgstr ""
+
+#: front-page.php:71
+msgid "Multiple Options"
+msgstr ""
+
+#: front-page.php:86
+msgid "Add to Cart"
+msgstr ""
+
+#: front-page.php:95
+msgid "View All Images"
+msgstr ""
+
+#: front-page.php:105
+msgid "Latest Updates"
+msgstr ""
+
+#: front-page.php:106
+msgid "Stay updated with our latest news, tips, and featured content"
+msgstr ""
+
+#: front-page.php:140
+msgid "Read More"
+msgstr ""
+
+#: front-page.php:148
+msgid "Ready to Get Started?"
+msgstr ""
+
+#: front-page.php:149
+msgid "Browse our extensive collection of premium digital images and find the perfect assets for your next project."
+msgstr ""
+
+#: front-page.php:152
+msgid "Browse Collection"
+msgstr ""
+
+#: footer.php:32
+msgid "About ImageStore"
+msgstr ""
+
+#: footer.php:33
+msgid "We provide high-quality digital images for designers, marketers, and content creators. Our curated collection features stunning photography and graphics perfect for any project."
+msgstr ""
+
+#: footer.php:37
+msgid "Quick Links"
+msgstr ""
+
+#: footer.php:39
+msgid "Home"
+msgstr ""
+
+#: footer.php:43
+msgid "Shop"
+msgstr ""
+
+#: footer.php:45
+msgid "Privacy Policy"
+msgstr ""
+
+#: footer.php:46
+msgid "Contact"
+msgstr ""
+
+#: footer.php:51
+msgid "Customer Support"
+msgstr ""
+
+#: footer.php:52
+msgid "Need help? We're here to assist you with any questions about our digital images and licensing."
+msgstr ""
+
+#: footer.php:53
+msgid "Email:"
+msgstr ""
+
+#: footer.php:61
+msgid "Copyright &copy; %1$s %2$s. All rights reserved."
+msgstr ""
+
+#: footer.php:70
+msgid "Powered by %1$s and %2$s."
+msgstr ""
+
+#: index.php:35 single.php:35
+msgid "by"
+msgstr ""
+
+#: index.php:46 single.php:46
+msgid "in"
+msgstr ""
+
+#: index.php:70 single.php:70
+msgid "Read More"
+msgstr ""
+
+#: index.php:86
+msgid "Previous"
+msgstr ""
+
+#: index.php:87
+msgid "Next"
+msgstr ""
+
+#: index.php:115
+msgid "Pages:"
+msgstr ""
+
+#: index.php:133
+msgid "Tags: "
+msgstr ""
+
+#: index.php:147
+msgid "Nothing here"
+msgstr ""
+
+#: index.php:160
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: index.php:169
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: index.php:172
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: archive-download.php:18
+msgid "Digital Images Collection"
+msgstr ""
+
+#: archive-download.php:19
+msgid "Browse our extensive collection of premium digital images"
+msgstr ""
+
+#: archive-download.php:33
+msgid "All Categories"
+msgstr ""
+
+#: archive-download.php:51
+msgid "All Tags"
+msgstr ""
+
+#: archive-download.php:60
+msgid "Newest First"
+msgstr ""
+
+#: archive-download.php:61
+msgid "Alphabetical"
+msgstr ""
+
+#: archive-download.php:62
+msgid "Most Popular"
+msgstr ""
+
+#: archive-download.php:64
+msgid "Price: Low to High"
+msgstr ""
+
+#: archive-download.php:65
+msgid "Price: High to Low"
+msgstr ""
+
+#: archive-download.php:79
+msgid "Multiple Sizes"
+msgstr ""
+
+#: archive-download.php:119
+msgid "Add to Cart"
+msgstr ""
+
+#: archive-download.php:122
+msgid "View Details"
+msgstr ""
+
+#: archive-download.php:140
+msgid "Previous"
+msgstr ""
+
+#: archive-download.php:141
+msgid "Next"
+msgstr ""
+
+#: archive-download.php:148
+msgid "No downloads found"
+msgstr ""
+
+#: archive-download.php:152
+msgid "Sorry, but no downloads were found. Please check back later or browse our categories."
+msgstr ""
+
+#: archive-download.php:155
+msgid "Browse Categories"
+msgstr ""
+
+#: single-download.php:29
+msgid "Categories:"
+msgstr ""
+
+#: single-download.php:41
+msgid "Tags:"
+msgstr ""
+
+#: single-download.php:57
+msgid "Additional Images"
+msgstr ""
+
+#: single-download.php:76
+msgid "Add to Cart"
+msgstr ""
+
+#: single-download.php:82
+msgid "File Size:"
+msgstr ""
+
+#: single-download.php:90
+msgid "Format:"
+msgstr ""
+
+#: single-download.php:98
+msgid "Dimensions:"
+msgstr ""
+
+#: single-download.php:106
+msgid "License:"
+msgstr ""
+
+#: single-download.php:110
+msgid "Standard Commercial License"
+msgstr ""
+
+#: single-download.php:116
+msgid "Share this image:"
+msgstr ""
+
+#: single-download.php:119
+msgid "Twitter"
+msgstr ""
+
+#: single-download.php:122
+msgid "Facebook"
+msgstr ""
+
+#: single-download.php:125
+msgid "Pinterest"
+msgstr ""
+
+#: single-download.php:133
+msgid "Description"
+msgstr ""
+
+#: single-download.php:171
+msgid "Related Images"
+msgstr ""
+
+#: single-download.php:189
+msgid "Add to Cart"
+msgstr ""
+
+#: 404.php:22
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try a search or browse our image collection?"
+msgstr ""
+
+#: 404.php:31
+msgid "Go Home"
+msgstr ""
+
+#: 404.php:36
+msgid "Browse Images"
+msgstr ""
+
+#: 404.php:44
+msgid "Or check out these popular images:"
+msgstr ""
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:26
+msgid "Found %s result"
+msgid_plural "Found %s results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:44
+msgid "Digital Image"
+msgstr ""
+
+#: search.php:69
+msgid "Digital Images"
+msgstr ""
+
+#: search.php:103
+msgid "Add to Cart"
+msgstr ""
+
+#: search.php:106
+msgid "View Details"
+msgstr ""
+
+#: search.php:111
+msgid "Read More"
+msgstr ""
+
+#: search.php:127
+msgid "Nothing found"
+msgstr ""
+
+#: search.php:131
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr ""
+
+#: search.php:136
+msgid "Search Suggestions:"
+msgstr ""
+
+#: search.php:138
+msgid "Try different keywords"
+msgstr ""
+
+#: search.php:139
+msgid "Check your spelling"
+msgstr ""
+
+#: search.php:140
+msgid "Use more general terms"
+msgstr ""
+
+#: search.php:141
+msgid "Try fewer keywords"
+msgstr ""
+
+#: search.php:146
+msgid "Browse by Category:"
+msgstr ""
+
+#: functions.php:217
+msgid "ImageStore Options"
+msgstr ""
+
+#: functions.php:226
+msgid "Theme Options"
+msgstr ""
+
+#: functions.php:238
+msgid "ImageStore Pro Options"
+msgstr ""
+
+#: functions.php:246
+msgid "Hero Section Title"
+msgstr ""
+
+#: functions.php:247
+msgid "Enter the main title for your hero section."
+msgstr ""
+
+#: functions.php:254
+msgid "Hero Section Subtitle"
+msgstr ""
+
+#: functions.php:255
+msgid "Enter the subtitle text for your hero section."
+msgstr ""
+
+#: functions.php:262
+msgid "Featured Products Section"
+msgstr ""
+
+#: functions.php:265
+msgid "Show featured products section on homepage"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "ImageStore Pro"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A modern, responsive WordPress theme designed specifically for e-commerce stores selling digital images. Fully compatible with Easy Digital Downloads plugin featuring clean design, image galleries, and optimized user experience for digital product sales."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ImageStore Theme"
+msgstr ""

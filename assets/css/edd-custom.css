@@ -1,0 +1,409 @@
+/*
+ * Easy Digital Downloads Custom Styles for ImageStore Pro
+ *
+ * This file contains custom styles for the Easy Digital Downloads plugin
+ * to match the ImageStore Pro theme design.
+ */
+
+/* Download Grid Layout */
+.edd_downloads_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.edd_download {
+    background: var(--bg-primary);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    transition: var(--transition);
+    border: 1px solid var(--border-color);
+}
+
+.edd_download:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Download Image */
+.edd_download_image {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+    background: var(--bg-secondary);
+}
+
+.edd_download_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.edd_download:hover .edd_download_image img {
+    transform: scale(1.05);
+}
+
+.edd_download_image .price-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 2rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* Download Content */
+.edd_download_inner {
+    padding: 1.5rem;
+}
+
+.edd_download_title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+    line-height: 1.3;
+}
+
+.edd_download_title a {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.edd_download_title a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.edd_download_excerpt {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Pricing */
+.edd_price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.edd_price_range_sep {
+    margin: 0 0.5rem;
+    color: var(--text-light);
+}
+
+/* Purchase Buttons */
+.edd-add-to-cart {
+    width: 100%;
+}
+
+.edd-submit {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    width: 100%;
+    font-size: 1rem;
+    text-transform: none;
+}
+
+.edd-submit:hover,
+.edd-submit:focus {
+    background: var(--secondary-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+.edd-submit:active {
+    transform: translateY(0);
+}
+
+.edd-submit.edd-has-js:before {
+    display: none;
+}
+
+/* Variable Pricing */
+.edd_price_options {
+    margin-bottom: 1rem;
+}
+
+.edd_price_options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.edd_price_options li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.edd_price_options li:last-child {
+    border-bottom: none;
+}
+
+.edd_price_options input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+.edd_price_options label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.edd_price_options .edd_price {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* Single Download Page */
+.single-download .entry-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.single-download .edd_download_purchase_form {
+    background: var(--bg-secondary);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    margin: 2rem 0;
+}
+
+.single-download .edd_price {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Cart Widget */
+.edd-cart-widget {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+}
+
+.edd-cart-widget .cart_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.edd-cart-widget .cart_item:last-child {
+    border-bottom: none;
+}
+
+.edd-cart-widget .edd_cart_meta {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+/* Checkout Form */
+.edd_form {
+    background: var(--bg-primary);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+}
+
+.edd_form fieldset {
+    margin-bottom: 2rem;
+    border: none;
+    padding: 0;
+}
+
+.edd_form legend {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.edd_form p {
+    margin-bottom: 1rem;
+}
+
+.edd_form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.edd_form input[type="text"],
+.edd_form input[type="email"],
+.edd_form input[type="password"],
+.edd_form input[type="tel"],
+.edd_form select,
+.edd_form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.edd_form input:focus,
+.edd_form select:focus,
+.edd_form textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* Purchase Summary */
+.edd_cart_footer_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    margin: 1rem 0;
+}
+
+.edd_cart_total {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* Success Messages */
+.edd-alert {
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin: 1rem 0;
+    border: 1px solid transparent;
+}
+
+.edd-alert-success {
+    background: #d1fae5;
+    color: #065f46;
+    border-color: #10b981;
+}
+
+.edd-alert-error {
+    background: #fee2e2;
+    color: #991b1b;
+    border-color: #ef4444;
+}
+
+.edd-alert-info {
+    background: #dbeafe;
+    color: #1e40af;
+    border-color: #3b82f6;
+}
+
+/* Loading States */
+.edd-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.edd-submit.edd-loading:after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-top: 2px solid currentColor;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 0.5rem;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Archive Page Styling */
+.post-type-archive-download .page-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.post-type-archive-download .edd_downloads_list {
+    margin-top: 2rem;
+}
+
+/* Filter Bar */
+.edd-download-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: var(--bg-secondary);
+    border-radius: var(--border-radius);
+}
+
+.edd-download-filters select {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background: var(--bg-primary);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .edd_downloads_list {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+    
+    .edd_download_inner {
+        padding: 1rem;
+    }
+    
+    .edd_form {
+        padding: 1rem;
+    }
+    
+    .edd-download-filters {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .edd_cart_footer_row {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .edd_downloads_list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .edd-add-to-cart,
+    .edd_download_purchase_form {
+        display: none;
+    }
+}
